@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="AimingDelayFactor"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="AimingDelayFactor"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="AimingDelayFactor"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="AimingDelayFactor"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="CleaningSpeed"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="CleaningSpeed"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="CleaningSpeed"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="CleaningSpeed"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="DeconstructionSpeed"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="DeconstructionSpeed"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="DeconstructionSpeed"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="DeconstructionSpeed"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="FixBrokenDownBuildingSuccessChance"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="FixBrokenDownBuildingSuccessChance"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="FixBrokenDownBuildingSuccessChance"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="FixBrokenDownBuildingSuccessChance"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="HungerRateMultiplier"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="HungerRateMultiplier"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="HungerRateMultiplier"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="HungerRateMultiplier"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="IncomingDamageFactor"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="IncomingDamageFactor"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="IncomingDamageFactor"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="IncomingDamageFactor"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="MedicalOperationSpeed"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="MedicalOperationSpeed"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MedicalOperationSpeed"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MedicalOperationSpeed"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="MedicalTendSpeed"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="MedicalTendSpeed"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MedicalTendSpeed"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MedicalTendSpeed"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="MeleeCooldownMultiplier"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="MeleeCooldownMultiplier"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MeleeCooldownMultiplier"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MeleeCooldownMultiplier"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="MeleeDamageFactor"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="MeleeDamageFactor"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MeleeDamageFactor"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MeleeDamageFactor"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="MeleeDodgeChance"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="MeleeDodgeChance"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MeleeDodgeChance"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MeleeDodgeChance"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="MeleeHitChance"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="MeleeHitChance"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MeleeHitChance"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MeleeHitChance"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="MentalBreakThreshold"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="MentalBreakThreshold"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MentalBreakThreshold"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MentalBreakThreshold"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="MoveSpeed"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="MoveSpeed"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MoveSpeed"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="MoveSpeed"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="PainShockThreshold"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="PainShockThreshold"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="PainShockThreshold"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="PainShockThreshold"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="RangedCooldownFactor"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="RangedCooldownFactor"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="RangedCooldownFactor"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="RangedCooldownFactor"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="ReloadSpeed"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="ReloadSpeed"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="ReloadSpeed"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="ReloadSpeed"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="ResearchSpeed"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="ResearchSpeed"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="ResearchSpeed"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="ResearchSpeed"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="RestFallRateFactor"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="RestFallRateFactor"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="RestFallRateFactor"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="RestFallRateFactor"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="RestRateMultiplier"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="RestRateMultiplier"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="RestRateMultiplier"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="RestRateMultiplier"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="ShootingAccuracyPawn"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="ShootingAccuracyPawn"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="ShootingAccuracyPawn"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="ShootingAccuracyPawn"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/StatDef[defName="WorkSpeedGlobal"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/StatDef[defName="WorkSpeedGlobal"]/parts</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="WorkSpeedGlobal"]/parts</xpath>
+        <value><li Class="CharacterTraits.StatPart_CT" /></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="WorkSpeedGlobal"]</xpath>
+        <value><parts><li Class="CharacterTraits.StatPart_CT" /></parts></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThoughtDef[defName="ObservedLayingCorpse"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/ThoughtDef[defName="ObservedLayingCorpse"]/nullifyingTraits</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName="ObservedLayingCorpse"]/nullifyingTraits</xpath>
+        <value><li>CT_Warrior</li><li>CT_Veteran</li><li>CT_GrimReaper</li><li>CT_Vulture</li><li>CT_LabTech</li><li>CT_Anatomist</li></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName="ObservedLayingCorpse"]</xpath>
+        <value><nullifyingTraits><li>CT_Warrior</li><li>CT_Veteran</li><li>CT_GrimReaper</li><li>CT_Vulture</li><li>CT_LabTech</li><li>CT_Anatomist</li></nullifyingTraits></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThoughtDef[defName="ObservedLayingRottingCorpse"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/ThoughtDef[defName="ObservedLayingRottingCorpse"]/nullifyingTraits</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName="ObservedLayingRottingCorpse"]/nullifyingTraits</xpath>
+        <value><li>CT_Warrior</li><li>CT_Veteran</li><li>CT_GrimReaper</li><li>CT_Vulture</li><li>CT_LabTech</li><li>CT_Anatomist</li></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName="ObservedLayingRottingCorpse"]</xpath>
+        <value><nullifyingTraits><li>CT_Warrior</li><li>CT_Veteran</li><li>CT_GrimReaper</li><li>CT_Vulture</li><li>CT_LabTech</li><li>CT_Anatomist</li></nullifyingTraits></value>
+      </nomatch>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThoughtDef[defName="SoakingWet"]</xpath>
+    <match Class="PatchOperationConditional">
+      <success>Always</success>
+      <xpath>Defs/ThoughtDef[defName="SoakingWet"]/nullifyingTraits</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName="SoakingWet"]/nullifyingTraits</xpath>
+        <value><li>CT_Swampman</li><li>CT_Thunder</li></value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/ThoughtDef[defName="SoakingWet"]</xpath>
+        <value><nullifyingTraits><li>CT_Swampman</li><li>CT_Thunder</li></nullifyingTraits></value>
+      </nomatch>
+    </match>
+  </Operation>
+</Patch>

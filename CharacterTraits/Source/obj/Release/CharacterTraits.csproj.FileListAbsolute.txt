@@ -1,0 +1,5 @@
+C:\Users\Дом\Desktop\CharacterTraits\Assemblies\CharacterTraits.dll
+C:\Users\Дом\Desktop\CharacterTraits\Source\obj\Release\CharacterTraits.csproj.AssemblyReference.cache
+C:\Users\Дом\Desktop\CharacterTraits\Source\obj\Release\CharacterTraits.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дом\Desktop\CharacterTraits\Source\obj\Release\CharacterTraits.csproj.CoreCompileInputs.cache
+C:\Users\Дом\Desktop\CharacterTraits\Source\obj\Release\CharacterTraits.dll

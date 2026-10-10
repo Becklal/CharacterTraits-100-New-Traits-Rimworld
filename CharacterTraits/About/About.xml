@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>CharacterTraits: 100+ New Traits</name>
+  <author>Me</author>
+  <packageId>local.charactertraits</packageId>
+  <description>100 новых черт характера с уникальными механиками: выживание, социальные, ремесло и наука, боевые и безумные. Плюс охотничья винтовка.</description>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+</ModMetaData>
